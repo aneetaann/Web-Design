@@ -9,7 +9,6 @@ h1{
     text-transform: uppercase;
 }
 body{
-    background-color: #FFFFFF;
     font-family:'Times New Roman', Times, serif;
     font-size: 100%;
     margin: 1%;
@@ -25,6 +24,7 @@ nav a{
     border-radius: 5%;
     font-weight: bold;
     background-color: rgba(255, 255, 255, 0.3);
+    color: #000000;
 }
 .active{
     background-color: #FFFFFF;
@@ -33,21 +33,34 @@ nav a{
 nav a:hover{
     background-color: #FFFFFF;
 }
-a{
+.link{
     color: #000000;
-    background-color:#C3C5C7;
+    background-color: #C3C5C7;
 }
-/*main{
-    display: table-cell;
-    column-count: 2;
-}
-.left a{
+.left{
+    width: 20%;
     display: inline-block;
-    align-content: left;
+    float: left;
+    background-color: #729b2c;
+    justify-content: center;
+}
+.left img{
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left: 22%;
+    display:inline-block;
+    border-style: solid;
+    border-image: 3px;
+    border-color: #000000;
 }
 .right{
+    width: 79.5%;
+    margin-left: 0.5%;
     display: inline-block;
-}*/
+    float: left;
+    font-size: 115%;
+}
 h2{
     font-weight: bold;
     color: #000000;
